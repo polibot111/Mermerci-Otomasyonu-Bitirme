@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Project.ENTITIES.Models
 {
-    public class TypeDescription : BaseEntity
+    public class Rebate : BaseEntity
     {
-        public Type Type { get; set; }
+        public bool Answer { get; set; }
 
+        //R.L
+        public virtual Order Order { get; set; }
     }
 }

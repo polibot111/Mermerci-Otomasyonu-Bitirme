@@ -42,10 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\Status.cs" />
-    <Compile Include="Enums\Type.cs" />
+    <Compile Include="Enums\Typee.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\TypeDescription.cs" />
+    <Compile Include="Models\Check.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Rebate.cs" />
+    <Compile Include="Models\Safe.cs" />
+    <Compile Include="Models\Shipper.cs" />
+    <Compile Include="Models\UserCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.ENTITIES.Enums
+namespace Project.ENTITIES.Models
 {
-    public enum Type
+    class Feature
     {
-        Block = 1 , Plate = 2
     }
 }
