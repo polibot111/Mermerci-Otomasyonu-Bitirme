@@ -15,7 +15,7 @@ namespace Project.ENTITIES.Models
         public string CompanyName { get; set; }
         //R.L.
         public virtual Safe Safe { get; set; }
-        public virtual UserCart UserCart { get; set; }
+        public virtual CompanyCard UserCart { get; set; }
         public virtual List<OrderDetail> OrderDetails { get; set; }
         public virtual Shipper Shipper { get; set; }
     }

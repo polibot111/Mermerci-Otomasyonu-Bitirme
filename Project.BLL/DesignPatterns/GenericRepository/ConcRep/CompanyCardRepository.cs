@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project.BLL.DesingPatterns.GenericRepository.ConcRep
 {
-    public class UserCartRepository:BaseRepository<UserCart>
+    public class UserCartRepository:BaseRepository<CompanyCard>
     {
     }
 }

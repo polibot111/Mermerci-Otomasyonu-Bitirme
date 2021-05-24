@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTITIES.Models
 {
-    public class UserCart : BaseEntity
+    public class CompanyCard : BaseEntity
     {
         public string CompanyName { get; set; }
         public string Phone { get; set; }
@@ -16,6 +16,7 @@ namespace Project.ENTITIES.Models
 
         //R.L
         public virtual List<Order> Orders { get; set; }
+        public UserCard UserCard { get; set; }
 
     }
 }

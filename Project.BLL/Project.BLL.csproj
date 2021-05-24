@@ -51,18 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DesingPatterns\GenericRepository\BaseRep\BaseRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\CategoryRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\CheckRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\OrderDetailRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\OrderRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\ProductRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\RebateRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\SafeRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\ShipperRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\ConcRep\UserCartRepository.cs" />
-    <Compile Include="DesingPatterns\GenericRepository\IntRep\IRepository.cs" />
-    <Compile Include="DesingPatterns\SingletonPattern\DBTool.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\BaseRep\BaseRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\CategoryRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\CheckRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\OrderDetailRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\OrderRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\ProductRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\RebateRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\SafeRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\ShipperRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\UserCardRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\CompanyCardRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\IntRep\IRepository.cs" />
+    <Compile Include="DesignPatterns\SingletonPattern\DBTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -25,7 +25,8 @@ namespace Project.DAL.Context
             modelBuilder.Configurations.Add(new ProductMap());
             modelBuilder.Configurations.Add(new RebateMap());
             modelBuilder.Configurations.Add(new SafeMap());
-            modelBuilder.Configurations.Add(new UserCartMap());
+            modelBuilder.Configurations.Add(new CompanyCartMap());
+            modelBuilder.Configurations.Add(new UserCardMap());
 
         }
         public DbSet<Category> Categories { get; set; }
@@ -35,7 +36,8 @@ namespace Project.DAL.Context
         public DbSet<Product>Products { get; set; }
         public DbSet<Rebate>Rebates { get; set; }
         public DbSet<Safe>Saves { get; set; }
-        public DbSet<UserCart>UserCarts { get; set; }
+        public DbSet<CompanyCard>UserCarts { get; set; }
+        public DbSet<UserCard>UserCards { get; set; }
 
 
 
