@@ -16,7 +16,7 @@ namespace Project.ENTITIES.Models
 
         //R.L
         public virtual List<Order> Orders { get; set; }
-        public UserCard UserCard { get; set; }
+        public virtual List<UserCard> UserCard { get; set; }
 
     }
 }

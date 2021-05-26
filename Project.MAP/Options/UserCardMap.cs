@@ -11,7 +11,7 @@ namespace Project.MAP.Options
     {
         public UserCardMap()
         {
-            HasOptional(x => x.CompanyCard).WithRequired(x => x.UserCard);
+
         }
     }
 }
