@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.BLL.DesingPatterns.GenericRepository.ConcRep
+namespace Project.BLL.DesignPatterns.GenericRepository.ConcRep
 {
-    public class UserCartRepository:BaseRepository<CompanyCard>
+    public class CompanyCardRepository: BaseRepository<CompanyCard>
     {
     }
 }

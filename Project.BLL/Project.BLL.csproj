@@ -54,6 +54,7 @@
     <Compile Include="DesignPatterns\GenericRepository\BaseRep\BaseRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\CategoryRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\CheckRepository.cs" />
+    <Compile Include="DesignPatterns\GenericRepository\ConcRep\CompanyCardRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\OrderDetailRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\OrderRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\ProductRepository.cs" />
@@ -61,7 +62,6 @@
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\SafeRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\ShipperRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\ConcRep\UserCardRepository.cs" />
-    <Compile Include="DesignPatterns\GenericRepository\ConcRep\CompanyCardRepository.cs" />
     <Compile Include="DesignPatterns\GenericRepository\IntRep\IRepository.cs" />
     <Compile Include="DesignPatterns\SingletonPattern\DBTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

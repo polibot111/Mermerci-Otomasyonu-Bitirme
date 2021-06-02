@@ -11,11 +11,16 @@ namespace Project.ENTITIES.Models
         public string ShippedAddress { get; set; }
         public decimal TotalPrice { get; set; }
         public int? ShipperID { get; set; }
-        public int UserCartID { get; set; }
-        public string CompanyName { get; set; }
+        public int? UserCardID { get; set; }
+        public int CompanyCardID { get; set; }
+
+
+        public string UserName { get; set; }
+        public string Email { get; set; }
+
         //R.L.
         public virtual Safe Safe { get; set; }
-        public virtual CompanyCard UserCart { get; set; }
+        public virtual CompanyCard UserCard { get; set; }
         public virtual List<OrderDetail> OrderDetails { get; set; }
         public virtual Shipper Shipper { get; set; }
     }
