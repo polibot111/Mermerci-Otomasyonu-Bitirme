@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.MAP.Options
 {
-    public class CompanyCartMap:BaseMap<CompanyCard>
+    public class CompanyCardMap:BaseMap<CompanyCard>
     {
     }
 }

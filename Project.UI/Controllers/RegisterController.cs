@@ -34,6 +34,7 @@ namespace Project.UI.Controllers
         {
 
             UserCard userCard = apvm.UserCard;
+
             CompanyCard companyCard = apvm.CompanyCard;
 
             userCard.Password = DantexCrypt.Crypt(userCard.Password); //sifreyi kriptoladık

@@ -1,4 +1,5 @@
-﻿using Project.ENTITIES.Models;
+﻿using Project.DAL.StrategyPattern;
+using Project.ENTITIES.Models;
 using Project.MAP.Options;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Project.DAL.Context
     {
         public MyContext():base("myConnection")
         {
+            Database.SetInitializer(new MyInit());
 
         }
 
@@ -25,7 +27,7 @@ namespace Project.DAL.Context
             modelBuilder.Configurations.Add(new ProductMap());
             modelBuilder.Configurations.Add(new RebateMap());
             modelBuilder.Configurations.Add(new SafeMap());
-            modelBuilder.Configurations.Add(new CompanyCartMap());
+            modelBuilder.Configurations.Add(new CompanyCardMap());
             modelBuilder.Configurations.Add(new UserCardMap());
 
         }
@@ -36,7 +38,7 @@ namespace Project.DAL.Context
         public DbSet<Product>Products { get; set; }
         public DbSet<Rebate>Rebates { get; set; }
         public DbSet<Safe>Saves { get; set; }
-        public DbSet<CompanyCard>UserCarts { get; set; }
+        public DbSet<CompanyCard>CompanyCards { get; set; }
         public DbSet<UserCard>UserCards { get; set; }
 
 

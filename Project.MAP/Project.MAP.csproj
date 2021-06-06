@@ -60,7 +60,7 @@
     <Compile Include="Options\RebateMap.cs" />
     <Compile Include="Options\SafeMap.cs" />
     <Compile Include="Options\ShipperMap.cs" />
-    <Compile Include="Options\CompanyCartMap.cs" />
+    <Compile Include="Options\CompanyCardMap.cs" />
     <Compile Include="Options\UserCardMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
